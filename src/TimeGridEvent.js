@@ -56,6 +56,7 @@ function TimeGridEvent(props) {
         role="button"
         tabIndex={0}
         onClick={onClick}
+        onTouchEnd={onClick}
         onDoubleClick={onDoubleClick}
         style={eventStyle}
         onKeyDown={onKeyPress}
